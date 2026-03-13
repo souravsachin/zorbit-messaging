@@ -71,6 +71,8 @@ docker-compose up -d  # PostgreSQL + Kafka
 npm run start:dev
 ```
 
+Service runs on port 3004 (default). Production/server: port 3104.
+
 ## Events Published
 
 - messaging.topic.created
